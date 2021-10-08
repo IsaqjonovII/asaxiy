@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #404347;
+    position: relative;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navigation{
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 10px 20px #8080803a;
+    background-color: #fff;
+}
+.navigation_container{
+    width: 100%;
+    height: 90px;
+    border: 1px solid #8080806c;
+}
+
+.wrapper{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.searchbar{
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    height: 35px;
+    margin-left: 30px;
+    border: 2px solid  #008dff;
+}
+
+.searchbar > input{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.searchbtn{
+    width: 100px;
+    background-color: #008dff;
+    color: #fff;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    border: none;
+    border-top-right-radius: 5px;
+    padding-left: 35px;
+    border-bottom-right-radius: 5px;
+}
+.searchbtn:hover{
+    background-color: rgb(0, 119, 255);
+}
+
+.collection{
+    display: flex;
+    align-items: center;
+}
+
+.collection_item{
+    list-style-type: none;
+    margin: 0px 10px ;
+}
+.collection_item a{
+    text-decoration: none;
+    color: rgb(150, 149, 149);
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.navigation_nd{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+}
+
+.navigation_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation_ul li
+{
+    padding-top: 15px;
+    list-style-type: none;
+    color: #9094a1;
+}
+.navigation_ul li a{
+    text-decoration: none;
+    color: #7d808a;
+}
+.navigation_ul li i{
+    color: #008dff;
+}
+.product1{
+    margin-top: 24px;
+    margin-left: 64px;
+    border-radius: 25px;
+    width: 800px;
+    height: 390px;
+    /* background-color: #7d808a; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.product1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.div_container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.product_minicon{
+    width: 320px;
+    height: 400px;
+    display: grid;
+    align-items: center;
+
+}
+.product_container{
+    margin-top: 24px;
+    
+    width: 663px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product_item{
+    width: 300px;
+    height: 165px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.product_item img{
+    width: 94px;
+    height: 82px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.productmini{
+    width: 300px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+.product_item1{
+    width: 210px;
+    height: 168px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.product_item1 img{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.product_item button{
+    background-color: #008dff;
+    width: 71px;
+    height: 33px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    color: #fff;
+} 
+.product_item button:hover{
+    background-color: #4dafff;
+}
+
+.product_item1 button{
+    background-color: #008dff;
+    width: 71px;
+    height: 33px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: #fff;
+} 
+.product_item1 button:hover{
+    background-color: #4dafff;
+}
+.smart{
+    color: black;
+    position: absolute;
+    top: 105px;
+    right: 30px;
+    font-size: 15px;
+}
+.smartwatch{
+    color: black;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    width: 300px;
+}
+.smartwatch1{
+    color: black;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 300px;
+}
+
+.telephone{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    font-size: 17px;
+}
+
+.phones{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.phones1{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.products_vertical{
+    width: 290px;
+    height: 580px;
+    background-color: #008dff;
+    border-radius: 10px;
+    position: absolute;
+    top: 650px;
+    left: 40px;
+}
+
+.vertical_products{
+    width: 290px;
+    height: 110px;
+    /* background-color: #416af3; */
+    position: relative;
+    border: 0.5px solid #7d808a;
+}
+.vertical_products img{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.products_vertical p{
+    color: #000000;
+    padding-left: 30px;
+}
+
+.books{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    font-size: 14px;
+}
+.books1{
+    position: absolute;
+    top: 50px;
+    left: 65px;
+}
+
+.brands{
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 40px 10%;
+    border-radius: 20px;
+}
+.brands_collection{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.brands_collection::-webkit-scrollbar{
+    display: none;
+}
+ .brands_item{
+     list-style-type: none;
+    margin: 0px 40px;
+}
+.brands_item img{
+    width: 100px;
+}
+
+.app{
+    width: 80%;
+    height: 350px;
+    border-radius: 30px;
+    margin: auto;
+    background-image: url('https://asaxiy.uz/custom-assets/images/asaxiy-app.png');
+    background-repeat: no-repeat;
+    background-position-y: -50%;
+    background-color: #008dff;
+    background-position-x: 15%;
+
+}
+
+.app_container{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 30px;
+}
